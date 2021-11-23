@@ -27,3 +27,19 @@ header > a > img{
     margin: auto auto;
     top: 10px;
 }
+
+/*Menu*/
+nav{
+    display: flex;
+    width: 80%;
+    background-color: #212121;
+    justify-content: space-around;
+    margin: 15px auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: var(--cor3);
+}
