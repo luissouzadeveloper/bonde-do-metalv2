@@ -15,6 +15,16 @@
     --fonte-metal: 'Metal';
 }
 
+/*Fontes*/
+@font-face {
+    font-family: Metal;
+    src: url(../fontes/RINGM___.TTF);
+}
+/*Geral*/
+body{
+    font-family: var(--fonte-padrao);
+}
+
 /*Cabeçalho*/
 header{
     background-color: var(--cor1);
@@ -42,4 +52,27 @@ nav{
 nav > a{
     text-decoration: none;
     color: var(--cor3);
+}
+
+/*Corpo principal*/
+main{
+    max-width: 430px;
+    margin: 20px auto;
+
+}
+
+/*Título principal*/
+main > section > h1{
+    font-family: var(--fonte-metal);
+}
+
+
+section > p{
+    color: var(--cor3);
+}
+section{
+    display: flex;
+    background-image: url(../img/fundo.jpg);
+    width: 800px;
+    align-items: center;
 }
