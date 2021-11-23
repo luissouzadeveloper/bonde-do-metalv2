@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Área de variáveis css*/
+:root{
+    --cor1: #000000;
+    --cor2: #212121;
+    --cor3: #ffffff;
+    --cor4: #e6e6e6;
+    --cor5: #838383;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-metal: 'Metal';
+}
+
+/*Cabeçalho*/
+header{
+    background-color: var(--cor1);
+    height: 120px;
+}
+
+header > a > img{
+    position: relative;
+    display: block;
+    margin: auto auto;
+    top: 10px;
+}
