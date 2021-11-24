@@ -23,6 +23,7 @@
 /*Geral*/
 body{
     font-family: var(--fonte-padrao);
+    text-align: justify;
 }
 
 /*Cabeçalho*/
@@ -47,6 +48,7 @@ nav{
     margin: 15px auto;
     padding: 5px;
     border-radius: 10px;
+    
 }
 
 nav > a{
@@ -58,21 +60,76 @@ nav > a{
 main{
     max-width: 430px;
     margin: 20px auto;
-
 }
 
 /*Título principal*/
 main > section > h1{
     font-family: var(--fonte-metal);
+    color: var(--cor3);
+    
 }
 
+/*Subtitulo*/
+main > section > h2{
+    font-family: var(--fonte-metal);
+    color: var(--cor3);
+    margin: 20px 0;
+    padding: 5px;
+    background-image: linear-gradient(to right, var(--cor2), var(--cor3));
+}
 
-section > p{
+/*Sessão 1*/
+#sec1{
+    padding: 10px;
+    background-color: var(--cor2);
+    border-radius: 10px;
+}
+
+#sec1 > p{
     color: var(--cor3);
 }
-section{
-    display: flex;
-    background-image: url(../img/fundo.jpg);
-    width: 800px;
-    align-items: center;
+
+/*Sessão 2*/
+figure{
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 10px;
+    color: var(--cor3);
 }
+
+/*Quadro*/
+figure > img{
+    width: 100%;
+}
+
+/*Subtítulo de h2*/
+#sec2 > h3{
+    margin: 15px 0;
+}
+
+/*Parágrafo*/
+#sec2 > p{
+    margin: 15px 0;
+}
+
+/*Vídeo*/
+.video{
+    max-width: 450px;
+    margin: 10px;
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 10px;
+    color: var(--cor3);
+}
+
+.video iframe{
+    width: 100%;
+}
+
+/*Sessão 3*/
+/*Parágrafo*/
+#sec3 > p{
+    margin: 15px 0;
+}
+
+
