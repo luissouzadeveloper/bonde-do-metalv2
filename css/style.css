@@ -94,7 +94,6 @@ main > section > h2{
 #sec1{
     padding: 10px;
     background-image: url(../img/fundo.jpg);
-    border-radius: 10px;
     box-shadow: 2px 2px 10px black;
 }
 
