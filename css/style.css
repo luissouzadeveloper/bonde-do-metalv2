@@ -32,9 +32,10 @@ body{
 header{
     background-color: var(--cor1);
     height: 120px;
+    box-shadow: 2px 2px 10px black;
 }
 
-header > a > img{
+header > a > #logo{
     position: relative;
     display: block;
     margin: auto auto;
@@ -50,6 +51,7 @@ nav{
     margin: 15px auto;
     padding: 7px;
     border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
     
 }
 
@@ -93,6 +95,7 @@ main > section > h2{
     padding: 10px;
     background-image: url(../img/fundo.jpg);
     border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
 }
 
 #sec1 > p{
@@ -105,6 +108,7 @@ figure{
     padding: 10px;
     border-radius: 10px;
     color: var(--cor3);
+    box-shadow: 2px 2px 10px black;
 }
 
 /*Quadro*/
@@ -148,4 +152,111 @@ figure > img:focus, img:hover{
     margin: 15px 0;
 }
 
+/*Seção 4*/
+/*Parágrafo*/
+#sec4 p{
+    margin: 15px 0;
+}
 
+/*Rodapé*/
+footer{
+    background-color: var(--cor1);
+    padding: 4px;
+    box-shadow: 2px 2px 10px black;
+}
+
+footer > p{
+    font-family: var(--fonte-metal);
+    color: var(--cor3);
+    padding: 5px;
+    text-align: center;
+}
+
+/*Tablets*/
+@media (min-width: 768px){
+
+/*Corpo principal*/
+main{
+    max-width: 750px;
+    margin: 20px auto;
+}  
+
+/*Vídeo*/
+.video{
+    max-width: 750px;
+    margin: 10px;
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 10px;
+    color: var(--cor3);
+}
+
+.video iframe{
+    width: 100%;
+    height: 350px;
+}
+
+/*Sessão 2*/
+figure{
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 10px;
+    color: var(--cor3);
+    box-shadow: 2px 2px 10px black;
+}
+
+/*Quadro*/
+figure > img{
+    width: 100%;
+    transition: transform 1s;
+    transform: translateX(0) scale(1);
+}
+
+figure > img:focus, img:hover{
+    transform: translateX(10px) scale(1.1);
+}
+}
+
+/*Desktops e TV's*/
+@media (min-width: 1024px){
+/*Corpo principal*/
+main{
+    max-width: 1000px;
+    margin: 20px auto;
+} 
+
+/*Vídeo*/
+.video{
+    max-width: 1000px;
+    margin: 10px;
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 10px;
+    color: var(--cor3);
+}
+
+.video iframe{
+    width: 100%;
+    height: 600px;
+}
+
+/*Sessão 2*/
+figure{
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 10px;
+    color: var(--cor3);
+    box-shadow: 2px 2px 10px black;
+}
+
+/*Quadro*/
+figure > img{
+    width: 100%;
+    transition: transform 1s;
+    transform: translateX(0) scale(1);
+}
+
+figure > img:focus, img:hover{
+    transform: translateX(10px) scale(1.1);
+}
+}
