@@ -70,8 +70,9 @@ nav a:hover{
 
 /*Corpo principal*/
 main{
-    max-width: 415px;
+    max-width: 430px;
     margin: 20px auto;
+    padding: 20px
 }
 
 /*Título principal*/
