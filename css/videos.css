@@ -23,6 +23,7 @@
 /*Geral*/
 body{
     font-family: var(--fonte-padrao);
+    font-size: 1.2em;
     text-align: justify;
     background-image: url('../img/fundo-white2.jpg');
     background-attachment: fixed;
